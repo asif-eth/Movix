@@ -48,7 +48,7 @@ const Carousel = ({ data, loading }) => {
             </div>
         )
     }
-
+    
   return (
     <div className="carousel">
         <ContentWrapper>
