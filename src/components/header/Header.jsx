@@ -45,9 +45,9 @@ const Header = () => {
 
     const searchQueryHandler = (e) => {
       if(e.key === "Enter" && query.length > 0){
-        navigate(`search/${query}`)
+        navigate(`search/${query}`);
         setTimeout(() => {
-          setShowSearch(false)
+          setShowSearch(false);
         }, 1000);
       }
     }
@@ -74,7 +74,7 @@ const Header = () => {
     return (
         <header className={`header ${mobileMenu ? "mobileView": ""} ${show}`}>
           <ContentWrapper>
-            <div className="logo">
+            <div className="logo" onClick={() => navigate("/")}>
               <img src={logo} alt="" />
             </div>
             <ul className="menuItems">
