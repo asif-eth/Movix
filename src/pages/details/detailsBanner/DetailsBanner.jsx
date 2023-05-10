@@ -7,12 +7,12 @@ import "./style.scss";
 
 import Genres from "../../../components/genres/Genres";
 import CircleRating from "../../../components/circleRating/CircleRating";
-import Img from "../../../components/lazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 import ContentWrapper from "../../../components/conentWrapper/ContentWrapper";
 import { PlayIcon } from "../Playbtn";
 import VideoPopup from "../../../components/videoPopup/VideoPopup";
 import useFetch from "../../../hooks/usefetch";
+import Img from "../../../components/lazyLoadImage/Img";
 
 const DetailsBanner = ({ video, crew }) => {
 
