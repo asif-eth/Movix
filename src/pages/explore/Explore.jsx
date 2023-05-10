@@ -5,11 +5,11 @@ import Select from "react-select";
 
 import "./style.scss";
 
-import useFetch from "../../hooks/useFetch";
 import { fetchDataFromApi } from "../../utils/api";
 import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 import ContentWrapper from "../../components/conentWrapper/ContentWrapper";
+import useFetch from "../../hooks/usefetch";
 
 let filters = {};
 
