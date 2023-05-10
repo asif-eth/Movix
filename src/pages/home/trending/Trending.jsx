@@ -4,7 +4,6 @@ import ContentWrapper from '../../../components/conentWrapper/ContentWrapper'
 import SwitchTabs from '../../../components/switchTabs/SwitchTabs'
 import useFetch from '../../../hooks/usefetch'
 
-
 const Trending = () => {
 
     const [endPoint, setEndPoint] = useState("day")
