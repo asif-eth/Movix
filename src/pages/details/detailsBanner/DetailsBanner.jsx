@@ -12,7 +12,7 @@ import ContentWrapper from "../../../components/conentWrapper/ContentWrapper";
 import { PlayIcon } from "../Playbtn";
 import VideoPopup from "../../../components/videoPopup/VideoPopup";
 import useFetch from "../../../hooks/usefetch";
-import Img from "../../../components/lazyLoadImage/Img";
+import Img from "../../../components/lazyLoader/Img";
 
 const DetailsBanner = ({ video, crew }) => {
 

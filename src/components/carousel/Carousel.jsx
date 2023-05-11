@@ -13,7 +13,7 @@ import "./style.scss";
 import ContentWrapper from "../conentWrapper/ContentWrapper";
 import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
-import Img from "../lazyLoadImage/Img";
+import Img from "../lazyLoader/Img";
 
 
 const Carousel = ({ data, loading, endPoint, title }) => {
