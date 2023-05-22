@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import "./style.scss";
@@ -48,7 +48,7 @@ const HeroBanner = () => {
                             type="text"
                             placeholder="Search for a movie or tv show...."
                             onChange={(e) => setQuery(e.target.value)}
-                            onKeyUp={searchQueryHandler}
+                            onClick={searchQueryHandler}
                         />
                         <button>Search</button>
                     </div>
